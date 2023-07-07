@@ -1,0 +1,20 @@
+{
+  "name": "docker-nodejs-speed-up-dev",
+  "version": "1.0.0",
+  "description": "watch?v=5JQlFK6MdVQ",
+  "type" : "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "docker",
+    "nodejs",
+    "expressjs"
+  ],
+  "author": "HakamRaza",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
