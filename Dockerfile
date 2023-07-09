@@ -3,6 +3,9 @@ FROM node:16
 # Create app directory
 WORKDIR /usr/src/app
 
+# Install nodemon
+RUN yarn global add nodemon
+
 # Install app dependencies
 COPY package.json ./
 COPY yarn.lock ./
